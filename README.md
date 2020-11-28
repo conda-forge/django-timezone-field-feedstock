@@ -5,11 +5,9 @@ Home: http://github.com/mfogel/django-timezone-field/
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-timezone-field-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Django app providing database and form fields for pytz timezone objects.
-
-
 
 Current build status
 ====================
