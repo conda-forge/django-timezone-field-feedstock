@@ -23,6 +23,7 @@ requirements:
     - django >=2.2
     - python >=3.5
     - pytz
+    - djangorestframework >=3.0.0
 
 test:
   imports:
