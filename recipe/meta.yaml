@@ -1,5 +1,5 @@
 {% set name = "django-timezone-field" %}
-{% set version = "4.1.2" %}
+{% set version = "4.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cffac62452d060e365938aa9c9f7b72d70d8b26b9c60243bce227b35abd1b9df
+  sha256: 5dd5bd9249382bef8847d3e7e4c32b7be182a4b538f354130d1252ed228892f8
 
 build:
   number: 0
