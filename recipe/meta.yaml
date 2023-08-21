@@ -23,11 +23,11 @@ requirements:
     - python >=3.7.0,<4.0.0
     - django >=3.2,<5.0
     - backports.zoneinfo >=0.2.1,<0.3.0
+    - pytz
 
 test:
-  imports:
-    - timezone_field
   commands:
+    - python -c "import django; from django.conf import settings; settings.configure(DEBUG=TRUE,USE_DEPRECATED_PYTZ=[' VERSION < (4, 0))']); django.setup(); import timezone_field;
     - pip check
   requires:
     - pip
