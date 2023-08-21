@@ -27,7 +27,7 @@ requirements:
 
 test:
   commands:
-    - python -c "import django; from django.conf import settings; settings.configure(DEBUG=TRUE,USE_DEPRECATED_PYTZ=[' VERSION < (4, 0))']); django.setup(); import timezone_field;
+    - python -c "import django; from django.conf import settings; settings.configure(DEBUG=True,USE_DEPRECATED_PYTZ=[' VERSION < (4, 0))']); django.setup(); import timezone_field"
     - pip check
   requires:
     - pip
