@@ -3,11 +3,11 @@ About django-timezone-field-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-timezone-field-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/mfogel/django-timezone-field/
+Home: https://github.com/mfogel/django-timezone-field/
 
 Package license: BSD-2-Clause
 
-Summary: A Django app providing database and form fields for pytz timezone objects.
+Summary: A Django app providing DB, form, and REST framework fields for zoneinfo and pytz timezone objects.
 
 Current build status
 ====================
@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@hadim](https://github.com/hadim/)
+* [@rxm7706](https://github.com/rxm7706/)
 
