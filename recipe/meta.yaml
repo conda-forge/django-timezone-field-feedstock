@@ -1,5 +1,5 @@
 {% set name = "django-timezone-field" %}
-{% set version = "7.0" %}
+{% set version = "7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_timezone_field-{{ version }}.tar.gz
-  sha256: aa6f4965838484317b7f08d22c0d91a53d64e7bbbd34264468ae83d4023898a7
+  sha256: b3ef409d88a2718b566fabe10ea996f2838bc72b22d3a2900c0aa905c761380c
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -21,9 +21,10 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0.0
-    - django >=3.2,<5.0
-    - backports.zoneinfo >=0.2.1,<0.3.0
+    - django >=3.2,<6.0
+    - backports.zoneinfo <0.3.0,>=0.2.1
     - pytz
+    # - Django <6.0,>=3.2
 
 test:
   commands:
